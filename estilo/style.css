@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor3);
+    color: var(--cor5);
+}
+
+:root{
+    --cor0: #1C2026;
+    --cor1: #465059;
+    --cor2: #5D6973;
+    --cor3: #8D9AA6;
+    --cor4: #C7D1D9;
+    --cor5: #ffffff;
+    --cor6: #ff0000e5;
+    --cor7: #dd8500ea;
+}
+
+header{
+    display: flex;
+    background-image: linear-gradient(to bottom, var(--cor0),var(--cor1));
+    color: var(--cor3);
+    text-align: center;
+}
+
+header > nav{
+    display: flex;
+    width: 100px;
+    margin: auto;
+    padding: 10px;
+}
+
+.conteiner{ 
+    width: 450px;
+}
+
+.conteiner > a{
+    padding: 0px;  
+    margin: auto;
+    padding-top: 6px;
+    text-decoration: none;
+    color: var(--cor3);
+    font-weight: bold;
+}
+
+.conteiner a:hover{
+    color: var(--cor6);
+}
+
+.conteiner-perfil a{
+    color: var(--cor3);
+    text-decoration: none;
+}
+
+.conteiner-perfil a:hover{
+    color: var(--cor6);
+}
+
+.perfil-p{
+    margin-left: 10px;
+
+}
+
+section{
+    color: var(--cor0);
+    background-image: linear-gradient(to left,var(--cor1),var(--cor2));
+    padding: 10px;
+    padding-top: 25px;
+}
+
+section h1{
+    color: var(--cor4);
+    margin: 10px 0px 10px 10px;
+}
+
+section h3{
+    color: var(--cor4);
+    margin: 10px 0px 5px 15px;
+}
+
+ol li{
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+section b{
+    color: var(--cor7);
+}
+
+.dt-ma{
+    margin: 0px;
+}
+
+section dt{
+    display: flex;
+    margin-left: 25px;
+}
+
+section dl{
+    display: flex;
+    color: var(--cor7);
+}
+
+.estru-htm{
+    margin: auto;
+    width: 440px;
+    background-color: var(--cor1);
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.699);
+}
+
+article{
+   display: inline-block;
+    width: 300px;
+    background-color: var(--cor1);
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.699);
+}
+
+article p{
+    margin-left: 10px;
+}
+
+article q{
+    color: var(--cor6);
+}
+
+.subrinh{
+    color: var(--cor6);
+    text-decoration: underline;
+}
+
