@@ -107,8 +107,10 @@ section dl{
 }
 
 .estru-htm{
+    display: inline-block;
     margin: auto;
-    width: 440px;
+    width: 300px;
+    font-size: 10px;
     background-color: var(--cor1);
     margin-left: 10px;
     margin-right: 5px;
