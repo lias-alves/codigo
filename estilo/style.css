@@ -66,44 +66,23 @@ header > nav{
 }
 
 section{
-    color: var(--cor0);
+    color: var(--cor4);
     background-image: linear-gradient(to left,var(--cor1),var(--cor2));
     padding: 10px;
     padding-top: 25px;
 }
 
 section h1{
-    color: var(--cor4);
-    margin: 10px 0px 10px 10px;
+    width: 300px;
+    margin-left: 20px;
+    padding-left: 10px;
 }
 
-section h3{
-    color: var(--cor4);
-    margin: 10px 0px 5px 15px;
-}
-
-ol li{
-    margin: 30px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-section b{
-    color: var(--cor7);
-}
-
-.dt-ma{
-    margin: 0px;
-}
-
-section dt{
-    display: flex;
-    margin-left: 25px;
-}
-
-section dl{
-    display: flex;
-    color: var(--cor7);
+section p{
+  
+    margin-left: 35px;
+    margin-bottom: 10px;
+    
 }
 
 .estru-htm{
@@ -124,6 +103,7 @@ article{
    display: inline-block;
     width: 300px;
     background-image: linear-gradient(to left,var(--cor2),var(--cor3));
+    color: var(--cor0);
     margin-left: 10px;
     margin-right: 5px;
     margin-bottom: 10px;
@@ -135,6 +115,41 @@ article{
 article p{
     margin-left: 10px;
 }
+
+article h1{
+    color: var(--cor4);
+    margin: 10px 0px 10px 10px;
+}
+
+article h3{
+    color: var(--cor4);
+    margin: 10px 0px 5px 15px;
+}
+
+article ol li{
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+article b{
+    color: var(--cor7);
+}
+
+.dt-ma{
+    margin: 0px;
+}
+
+article dt{
+    display: flex;
+    margin-left: 25px;
+}
+
+section dl{
+    display: flex;
+    color: var(--cor7);
+}
+
 
 article q{
     color: var(--cor6);
