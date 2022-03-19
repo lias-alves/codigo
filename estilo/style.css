@@ -145,3 +145,18 @@ article q{
     text-decoration: underline;
 }
 
+.tag-h1{
+    font-size: 11.3px;
+}
+
+.tag-pp{
+    font-size: 13px;
+}
+
+article ul li{
+    margin-left: 20px;
+}
+
+.tag-oll-ull{
+    font-size: 11px;
+}
