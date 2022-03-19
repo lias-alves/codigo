@@ -123,7 +123,7 @@ section dl{
 article{
    display: inline-block;
     width: 300px;
-    background-color: var(--cor1);
+    background-image: linear-gradient(to left,var(--cor2),var(--cor3));
     margin-left: 10px;
     margin-right: 5px;
     margin-bottom: 10px;
@@ -159,4 +159,12 @@ article ul li{
 
 .tag-oll-ull{
     font-size: 11px;
+}
+
+.tag-links{
+    font-size: 17.8px;
+}
+
+.tag-abb{
+    font-size: 17.5px;
 }
