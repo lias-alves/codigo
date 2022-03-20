@@ -85,12 +85,21 @@ section p{
     
 }
 
+.entroducao{
+    width: 280px;
+    background-image: linear-gradient(to left, var(--cor0), var(--cor6));
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 6px 6px 0px 0px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.623);
+}
+
 .estru-htm{
     display: inline-block;
     margin: auto;
     width: 300px;
     font-size: 10px;
-    background-color: var(--cor1);
+    background-image: linear-gradient(to left, var(--cor2), var(--cor3));
     margin-left: 10px;
     margin-right: 5px;
     margin-bottom: 10px;
@@ -177,7 +186,7 @@ article ul li{
 }
 
 .tag-oll-ull{
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tag-links{
@@ -194,4 +203,8 @@ article ul li{
 
 .re-audio{
     font-size: 12.3px;
+}
+
+.tag-vii{
+    font-size: 11.7px;
 }
