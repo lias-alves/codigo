@@ -116,6 +116,10 @@ article p{
     margin-left: 10px;
 }
 
+.cor-p{
+    margin-left: 35px;
+}
+
 article h1{
     color: var(--cor4);
     margin: 10px 0px 10px 10px;
@@ -188,3 +192,6 @@ article ul li{
     font-size: 11.6px;
 }
 
+.re-audio{
+    font-size: 12.3px;
+}
