@@ -17,7 +17,7 @@ body{
     --cor4: #C7D1D9;
     --cor5: #ffffff;
     --cor6: #ff0000e5;
-    --cor7: #dd8500ea;
+    --cor7: #ffb546e5;
 }
 
 header{
@@ -206,10 +206,33 @@ article ul li{
     font-size: 11.7px;
 }
 
+#csss{
+    background-image: linear-gradient(to left, var(--cor4), var(--cor3));
+}
+
 aside{
     width: 100%;
-    padding: 10px 0px 10px 4px;
+    height: 100%;
     background-image: url('../img/11.jpg');
     text-align: center;
-    border: 2px solid black;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.circulo-texto{
+    border-radius: 0px 0px 10px 10px;
+}
+
+aside > span{
+    display: inline-block;
+    width: 300px;
+    padding-top: 10px;
+    margin: 5px;
+    background-image: linear-gradient(to left,var(--cor2),var(--cor3));
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.589);
+}
+
+span p{
+    text-align: left;
+    color: var(--cor7);
 }
