@@ -205,3 +205,11 @@ article ul li{
 .tag-vii{
     font-size: 11.7px;
 }
+
+aside{
+    width: 100%;
+    padding: 10px 0px 10px 4px;
+    background-image: url('../img/11.jpg');
+    text-align: center;
+    border: 2px solid black;
+}

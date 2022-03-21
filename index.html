@@ -253,8 +253,8 @@
             <article class="img-adapitavel">
                     <h3>tag para imagens 3 tipo de tela</h3>
                     <p>&lt; <b>picture</b> &gt;</p>
-                    <p class="cor-p">&lt; <b><abbr title="para tela pequenas">source</abbr></b> media="(max-width: 750px)" srcset="imagens/foto-p.png"</b> type="imade/png &gt;</p><br>
-                    <p class="cor-p">&lt; <b><abbr title="para tela media">source</abbr></b> media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="imade/png &gt;</p><br>
+                    <p class="cor-p">&lt; <b><abbr title="para tela pequenas">source</abbr></b> media="(max-width: 750px)" srcset="imagens/foto-p.png"</b> &gt;</p><br>
+                    <p class="cor-p">&lt; <b><abbr title="para tela media">source</abbr></b> media="(max-width: 1050px)" srcset="imagens/foto-m.png" &gt;</p><br>
                     <p class="cor-p">&lt; <b><abbr title="para tela grande">img </abbr></b> src="imagens/foto-g.png" alt="imagem flexivel &gt;</p>
                     <p>&lt; <b>picture</b> &gt;</p>
             </article>
@@ -287,6 +287,22 @@
                 <h1>CSS</h1>
                 <p>É o design, cores, sombras, tamanhos eo posicionamento.</p>
             </div>
+
+            <aside>
+                <picture>
+                    <source media="(max-width: 750px)" srcset="img/300.png">
+
+                    <source media="(max-width: 1050px)" srcset="img/600.png" >
+
+                    <img src="img/1000.png" alt="imagem flexivel">
+                </picture>
+<!--
+                <picture>
+                    <source media="(max-width: 670px)" srcset="imagens/300.jpg">
+
+                    <img src="imagens/irina-600px.jpg" alt="Irina Blok, criadora do Bugdroid">
+                </picture>   -->
+            </aside>
 
         </section>
     </main>
