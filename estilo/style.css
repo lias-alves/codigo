@@ -212,7 +212,7 @@ article ul li{
 
 aside{
     width: 100%;
-    background-image: url('../img/11.jpg');
+    background-image: url('../img/11-70.jpg');
     text-align: center;
     border-radius: 10px 10px 0px 0px;
 }
@@ -236,5 +236,31 @@ aside > span{
 
 span p{
     text-align: left;
+    color: var(--cor7);
+}
+
+.bloco-1{
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.bloco-css{
+    display: inline-flex;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
+}
+
+.bloco-css p{
+    color: var(--cor5);
+}
+
+.bloco-css b{
     color: var(--cor7);
 }
