@@ -241,19 +241,17 @@ span p{
 
 .bloco-1{
     margin: auto;
-    border: 1px solid black;
     text-align: center;
 }
 
 .bloco-css{
     display: inline-flex;
     width: 300px;
-    height: 250px;
-    margin: auto;
+    margin: 10px 10px 10px 10px;
     padding: 10px;
+    background-image: linear-gradient(to left,var(--cor3),var(--cor2));
     border-radius: 10px;
     margin-top: 10px;
-    border: 1px solid black;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
 }
 
@@ -263,4 +261,8 @@ span p{
 
 .bloco-css b{
     color: var(--cor7);
+}
+
+.bloco-css q{
+    color: var(--cor6);
 }
