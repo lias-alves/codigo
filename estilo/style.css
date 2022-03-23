@@ -84,7 +84,8 @@ section p{
     width: 280px;
     background-image: linear-gradient(to left, var(--cor0), var(--cor6));
     margin: auto;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     padding: 10px;
     text-align: center;
     border-radius: 6px 6px 0px 0px;
@@ -212,7 +213,12 @@ article ul li{
 
 aside{
     width: 100%;
+    background-color: black;
     background-image: url('../img/11-70.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     text-align: center;
     border-radius: 10px 10px 0px 0px;
 }
