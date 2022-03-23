@@ -261,6 +261,11 @@ span p{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
 }
 
+.bloco-css h3{
+    color: var(--cor5);
+    padding: 10px;
+}
+
 .bloco-css p{
     color: var(--cor5);
 }
@@ -271,4 +276,12 @@ span p{
 
 .bloco-css q{
     color: var(--cor6);
+}
+
+.bloco-fundo-3{
+    border: 2px solid black;
+    height: 100vh;
+    background: black url('../img/img002.jpg') center center no-repeat fixed;
+    background-size: cover;
+    border-radius: 12px;
 }
