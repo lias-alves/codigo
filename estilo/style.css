@@ -18,6 +18,8 @@ body{
     --cor5: #ffffff;
     --cor6: #ff0000e5;
     --cor7: #ffb546e5;
+    --cor8: rgba(0, 0, 0, 0.473);
+    --cor9: rgba(255, 255, 255, 0.329);
 }
 
 header{
@@ -214,7 +216,7 @@ article ul li{
 aside{
     width: 100%;
     background-color: black;
-    background-image: url('../img/11-70.jpg');
+    background-image: url('../img//img01.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -235,7 +237,7 @@ aside > span{
     width: 300px;
     padding-top: 10px;
     margin: 5px;
-    background-image: linear-gradient(to left,var(--cor2),var(--cor3));
+    background-color: var(--cor8);
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.589);
 }
@@ -255,7 +257,7 @@ span p{
     width: 300px;
     margin: 10px 10px 10px 10px;
     padding: 10px;
-    background-image: linear-gradient(to left,var(--cor3),var(--cor2));
+    background-color: var(--cor9);
     border-radius: 10px;
     margin-top: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
