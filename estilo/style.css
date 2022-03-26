@@ -7,6 +7,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor3);
     color: var(--cor5);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.329);
+    word-spacing: 4px;
 }
 
 :root{
@@ -261,6 +263,7 @@ span p{
     border-radius: 10px;
     margin-top: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.514);
+    line-height: 1em;
 }
 
 .bloco-css h3{
@@ -282,8 +285,13 @@ span p{
 
 .bloco-fundo-3{
     border: 2px solid black;
-    height: 100vh;
+    height: 100%;
     background: black url('../img/img002.jpg') center center no-repeat fixed;
     background-size: cover;
     border-radius: 12px;
+    font-variant: small-caps;
+}
+
+.alinha-esquedo{
+    text-align: left;
 }
