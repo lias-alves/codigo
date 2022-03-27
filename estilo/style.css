@@ -283,6 +283,11 @@ span p{
     color: var(--cor6);
 }
 
+.perto{
+    display: inline;
+    padding: 0px;
+    padding-left: 20px;
+}
 .bloco-fundo-3{
     border: 2px solid black;
     height: 100%;
@@ -292,6 +297,23 @@ span p{
     font-variant: small-caps;
 }
 
+
 .alinha-esquedo{
     text-align: left;
+}
+
+.escode{
+    display: inline;
+    background-color: var(--cor8);
+}
+.escode .ver-p{
+    display: none;
+}
+
+.escode:hover  p{
+    display: block;
+}
+
+.escode p{
+    color: var(--cor0);
 }
